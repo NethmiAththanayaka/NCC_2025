@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Pull Git Repository') {
             steps {
-                git branch: 'gscomp339', credentialsId: 'github-path-nethmi', url: 'https://github.com/NethmiAththanayaka/NCC_2025.git'
+                git branch: 'gscomp339', credentialsId: 'github-path-nethmi', url: 'YOUR_FORKED_REPOSITORY_URL_HERE'
             }
         }
 
